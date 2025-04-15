@@ -1,0 +1,6 @@
+*.csv
+gafgyt_attacks/
+mirai_attacks/
+
+# Handle large .pkl files with Git LFS
+*.pkl filter=lfs diff=lfs merge=lfs -text
